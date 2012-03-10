@@ -1,4 +1,4 @@
-﻿namespace MinecraftAssistant.UserInterface {
+﻿namespace MinecraftAdminAssistant.UserInterface {
     partial class ServerSettings {
         /// <summary>
         /// Required designer variable.

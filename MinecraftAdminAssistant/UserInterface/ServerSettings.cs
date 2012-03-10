@@ -6,9 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MinecraftAssistant.Properties;
+using MinecraftAdminAssistant.Properties;
 
-namespace MinecraftAssistant.UserInterface {
+namespace MinecraftAdminAssistant.UserInterface {
     public partial class ServerSettings : Form {
         public ServerSettings() {
             InitializeComponent();

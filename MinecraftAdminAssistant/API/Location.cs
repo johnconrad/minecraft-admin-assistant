@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MinecraftAssistant.Data {
+namespace MinecraftAdminAssistant.Data {
     [Serializable]
     public class Location: ICloneable {
         public string Name { get; set; }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
-using MinecraftAssistant.Properties;
-using MinecraftAssistant.Data;
+using MinecraftAdminAssistant.Properties;
+using MinecraftAdminAssistant.Data;
 
-namespace MinecraftAssistant {
+namespace MinecraftAdminAssistant {
     public class MinecraftAssistSettings {
         private static MinecraftAssistSettings instance = null;
 

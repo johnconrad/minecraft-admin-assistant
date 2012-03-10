@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
-using MinecraftAssistant.Data;
-using MinecraftAssistant.UserInterface;
-using MinecraftAssistant.Utils;
-using MinecraftAssistant.Properties;
+using MinecraftAdminAssistant.Data;
+using MinecraftAdminAssistant.UserInterface;
+using MinecraftAdminAssistant.Utils;
+using MinecraftAdminAssistant.Properties;
 
-namespace MinecraftAssistant {
+namespace MinecraftAdminAssistant {
     public partial class PlayerForm : Form {
         private static int UPDATE_INTERVAL = 15;
         

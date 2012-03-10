@@ -4,9 +4,9 @@ using System.Linq;
 using System.Windows.Forms;
 using com.ramblingwood.minecraft.jsonapi;
 using System.Collections;
-using MinecraftAssistant.Data;
+using MinecraftAdminAssistant.Data;
 
-namespace MinecraftAssistant {
+namespace MinecraftAdminAssistant {
     static class Program {
 
         /// <summary>
