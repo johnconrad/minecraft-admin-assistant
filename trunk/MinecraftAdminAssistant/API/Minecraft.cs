@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MinecraftAssistant.Data;
+using MinecraftAdminAssistant.Data;
 using com.ramblingwood.minecraft.jsonapi;
 using System.Collections;
 
-namespace MinecraftAssistant {
+namespace MinecraftAdminAssistant {
     public class MinecraftApi {
         protected JSONAPI api;
 

@@ -6,9 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MinecraftAssistant.Utils;
+using MinecraftAdminAssistant.Utils;
 
-namespace MinecraftAssistant.UserInterface {
+namespace MinecraftAdminAssistant.UserInterface {
     public partial class NewTeleportDialog : Form {
         public string ChosenName {
             get { return nameTextBox.Text; }

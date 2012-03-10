@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MinecraftAssistant.Data {
+namespace MinecraftAdminAssistant.Data {
     public enum GameMode { SURVIVAL, CREATIVE }
     
     [Serializable]

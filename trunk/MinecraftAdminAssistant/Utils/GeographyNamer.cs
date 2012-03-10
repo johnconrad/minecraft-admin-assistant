@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MinecraftAssistant.Properties;
+using MinecraftAdminAssistant.Properties;
 
-namespace MinecraftAssistant.Utils {
+namespace MinecraftAdminAssistant.Utils {
     public class GeographyNamer {
         private static GeographyNamer instance = null;
         Random r = new Random();

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MinecraftAssistant.Data;
+using MinecraftAdminAssistant.Data;
 using System.Drawing;
 
-namespace MinecraftAssistant.UserInterface {
+namespace MinecraftAdminAssistant.UserInterface {
     public class DestinationComboBox: ComboBox {
         public DestinationComboBox() {
             DrawMode = DrawMode.OwnerDrawFixed;

@@ -1,4 +1,4 @@
-﻿namespace MinecraftAssistant.UserInterface {
+﻿namespace MinecraftAdminAssistant.UserInterface {
     partial class NewTeleportDialog {
         /// <summary>
         /// Required designer variable.
@@ -72,7 +72,7 @@
             // 
             // randomNameButton
             // 
-            this.randomNameButton.Image = global::MinecraftAssistant.Properties.Resources.Dice;
+            this.randomNameButton.Image = global::MinecraftAdminAssistant.Properties.Resources.Dice;
             this.randomNameButton.Location = new System.Drawing.Point(217, 71);
             this.randomNameButton.Name = "randomNameButton";
             this.randomNameButton.Size = new System.Drawing.Size(26, 23);

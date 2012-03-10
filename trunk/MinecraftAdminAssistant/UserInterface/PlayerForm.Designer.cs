@@ -1,5 +1,5 @@
-﻿using MinecraftAssistant.UserInterface;
-namespace MinecraftAssistant {
+﻿using MinecraftAdminAssistant.UserInterface;
+namespace MinecraftAdminAssistant {
     partial class PlayerForm {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,8 @@ namespace MinecraftAssistant {
             this.settingsButton = new System.Windows.Forms.ToolStripButton();
             this.refreshButton = new System.Windows.Forms.ToolStripButton();
             this.playerListView = new System.Windows.Forms.ListView();
+            this.yHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.zHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.gameModeComboBox = new System.Windows.Forms.ComboBox();
             this.healthBar = new System.Windows.Forms.TrackBar();
@@ -45,9 +47,7 @@ namespace MinecraftAssistant {
             this.addDestinationButton = new System.Windows.Forms.ToolStripMenuItem();
             this.removeDestinationButton = new System.Windows.Forms.ToolStripMenuItem();
             this.returnButton = new System.Windows.Forms.ToolStripButton();
-            this.yHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.zHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.destinationComboBox = new MinecraftAssistant.UserInterface.DestinationComboBox();
+            this.destinationComboBox = new MinecraftAdminAssistant.UserInterface.DestinationComboBox();
             label1 = new System.Windows.Forms.Label();
             playerHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             worldHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -121,7 +121,7 @@ namespace MinecraftAssistant {
             // settingsButton
             // 
             this.settingsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.settingsButton.Image = global::MinecraftAssistant.Properties.Resources.Settings;
+            this.settingsButton.Image = global::MinecraftAdminAssistant.Properties.Resources.Settings;
             this.settingsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.settingsButton.Name = "settingsButton";
             this.settingsButton.Size = new System.Drawing.Size(23, 22);
@@ -132,7 +132,7 @@ namespace MinecraftAssistant {
             // refreshButton
             // 
             this.refreshButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.refreshButton.Image = global::MinecraftAssistant.Properties.Resources.RefreshIcon;
+            this.refreshButton.Image = global::MinecraftAdminAssistant.Properties.Resources.RefreshIcon;
             this.refreshButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.refreshButton.Name = "refreshButton";
             this.refreshButton.Size = new System.Drawing.Size(23, 22);
@@ -149,6 +149,11 @@ namespace MinecraftAssistant {
             label4.Size = new System.Drawing.Size(64, 13);
             label4.TabIndex = 10;
             label4.Text = "Teleport to:";
+            // 
+            // xHeader
+            // 
+            xHeader.Text = "X";
+            xHeader.Width = 40;
             // 
             // playerListView
             // 
@@ -172,6 +177,16 @@ namespace MinecraftAssistant {
             this.playerListView.UseCompatibleStateImageBehavior = false;
             this.playerListView.View = System.Windows.Forms.View.Details;
             this.playerListView.SelectedIndexChanged += new System.EventHandler(this.playerListView_SelectedIndexChanged);
+            // 
+            // yHeader
+            // 
+            this.yHeader.Text = "Y";
+            this.yHeader.Width = 40;
+            // 
+            // zHeader
+            // 
+            this.zHeader.Text = "Z";
+            this.zHeader.Width = 40;
             // 
             // progressBar
             // 
@@ -238,7 +253,7 @@ namespace MinecraftAssistant {
             this.teleportButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addDestinationButton,
             this.removeDestinationButton});
-            this.teleportButton.Image = global::MinecraftAssistant.Properties.Resources.MapGo;
+            this.teleportButton.Image = global::MinecraftAdminAssistant.Properties.Resources.MapGo;
             this.teleportButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.teleportButton.Name = "teleportButton";
             this.teleportButton.Size = new System.Drawing.Size(32, 22);
@@ -248,7 +263,7 @@ namespace MinecraftAssistant {
             // 
             // addDestinationButton
             // 
-            this.addDestinationButton.Image = global::MinecraftAssistant.Properties.Resources.MapAdd;
+            this.addDestinationButton.Image = global::MinecraftAdminAssistant.Properties.Resources.MapAdd;
             this.addDestinationButton.Name = "addDestinationButton";
             this.addDestinationButton.Size = new System.Drawing.Size(242, 22);
             this.addDestinationButton.Text = "Add Teleport Point";
@@ -256,7 +271,7 @@ namespace MinecraftAssistant {
             // 
             // removeDestinationButton
             // 
-            this.removeDestinationButton.Image = global::MinecraftAssistant.Properties.Resources.MapDelete;
+            this.removeDestinationButton.Image = global::MinecraftAdminAssistant.Properties.Resources.MapDelete;
             this.removeDestinationButton.Name = "removeDestinationButton";
             this.removeDestinationButton.Size = new System.Drawing.Size(242, 22);
             this.removeDestinationButton.Text = "Remove Selected Teleport Point";
@@ -265,28 +280,13 @@ namespace MinecraftAssistant {
             // returnButton
             // 
             this.returnButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.returnButton.Image = global::MinecraftAssistant.Properties.Resources.Return;
+            this.returnButton.Image = global::MinecraftAdminAssistant.Properties.Resources.Return;
             this.returnButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.returnButton.Name = "returnButton";
             this.returnButton.Size = new System.Drawing.Size(23, 22);
             this.returnButton.Text = "returnButton";
             this.returnButton.ToolTipText = "Return Player to Previous Locations";
             this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
-            // 
-            // xHeader
-            // 
-            xHeader.Text = "X";
-            xHeader.Width = 40;
-            // 
-            // yHeader
-            // 
-            this.yHeader.Text = "Y";
-            this.yHeader.Width = 40;
-            // 
-            // zHeader
-            // 
-            this.zHeader.Text = "Z";
-            this.zHeader.Width = 40;
             // 
             // destinationComboBox
             // 
@@ -324,7 +324,7 @@ namespace MinecraftAssistant {
             this.MaximumSize = new System.Drawing.Size(375, 1080);
             this.MinimumSize = new System.Drawing.Size(375, 265);
             this.Name = "PlayerForm";
-            this.Text = "Minecraft Assistant";
+            this.Text = "Minecraft Admin Assistant";
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.healthBar)).EndInit();
