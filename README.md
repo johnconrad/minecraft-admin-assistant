@@ -2,7 +2,7 @@ Minecraft Admin Assistant is a simple Windows application that can be used to pe
 
 **Minecraft Admin Assistant will only work for Minecraft Servers running Bukkit with the JSONAPI plugin installed.**
 
-![http://minecraft-admin-assistant.googlecode.com/svn/wiki/images/screenshot-01.png](http://minecraft-admin-assistant.googlecode.com/svn/wiki/images/screenshot-01.png) ![http://minecraft-admin-assistant.googlecode.com/svn/wiki/images/screenshot-02.png](http://minecraft-admin-assistant.googlecode.com/svn/wiki/images/screenshot-02.png)
+![https://raw.githubusercontent.com/johnconrad/minecraft-admin-assistant/wiki/main.png](https://raw.githubusercontent.com/johnconrad/minecraft-admin-assistant/wiki/main.png) ![https://raw.githubusercontent.com/johnconrad/minecraft-admin-assistant/wiki/server-settings.png](https://raw.githubusercontent.com/johnconrad/minecraft-admin-assistant/wiki/server-settings.png)
 
 
 ### Features ###
